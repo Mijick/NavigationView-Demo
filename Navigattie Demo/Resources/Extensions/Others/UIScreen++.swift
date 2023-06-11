@@ -21,4 +21,10 @@ extension UIScreen {
             .first?
             .safeAreaInsets ?? .zero
     }()
+    static let margin: CGFloat = 28
+}
+
+// MARK: - Numeric Helpers
+extension CGFloat {
+    static var margin: CGFloat { UIScreen.margin }
 }
