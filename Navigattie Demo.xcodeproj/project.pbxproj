@@ -16,6 +16,11 @@
 		6DB6F3FE2A35A7A4009B3705 /* UIScreen++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6F3FD2A35A7A4009B3705 /* UIScreen++.swift */; };
 		6DB6F4002A35A7B2009B3705 /* Spacer++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6F3FF2A35A7B2009B3705 /* Spacer++.swift */; };
 		6DB6F4022A35A7BF009B3705 /* View++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6F4012A35A7BF009B3705 /* View++.swift */; };
+		6DB6F4072A35AD69009B3705 /* Metropolis-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6DB6F4062A35AD69009B3705 /* Metropolis-Regular.otf */; };
+		6DB6F40C2A35AD7B009B3705 /* Metropolis-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6DB6F4082A35AD7B009B3705 /* Metropolis-Medium.otf */; };
+		6DB6F40D2A35AD7B009B3705 /* Metropolis-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6DB6F4092A35AD7B009B3705 /* Metropolis-Bold.otf */; };
+		6DB6F40E2A35AD7B009B3705 /* Metropolis-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6DB6F40A2A35AD7B009B3705 /* Metropolis-ExtraBold.otf */; };
+		6DB6F40F2A35AD7B009B3705 /* Metropolis-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6DB6F40B2A35AD7B009B3705 /* Metropolis-SemiBold.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +33,12 @@
 		6DB6F3FD2A35A7A4009B3705 /* UIScreen++.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScreen++.swift"; sourceTree = "<group>"; };
 		6DB6F3FF2A35A7B2009B3705 /* Spacer++.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Spacer++.swift"; sourceTree = "<group>"; };
 		6DB6F4012A35A7BF009B3705 /* View++.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View++.swift"; sourceTree = "<group>"; };
+		6DB6F4062A35AD69009B3705 /* Metropolis-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-Regular.otf"; sourceTree = "<group>"; };
+		6DB6F4082A35AD7B009B3705 /* Metropolis-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-Medium.otf"; sourceTree = "<group>"; };
+		6DB6F4092A35AD7B009B3705 /* Metropolis-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-Bold.otf"; sourceTree = "<group>"; };
+		6DB6F40A2A35AD7B009B3705 /* Metropolis-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-ExtraBold.otf"; sourceTree = "<group>"; };
+		6DB6F40B2A35AD7B009B3705 /* Metropolis-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-SemiBold.otf"; sourceTree = "<group>"; };
+		6DB6F4102A35ADB8009B3705 /* Navigattie-Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Navigattie-Demo-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +72,7 @@
 		6D757D3F2A313C1500E54AC9 /* Navigattie Demo */ = {
 			isa = PBXGroup;
 			children = (
+				6DB6F4102A35ADB8009B3705 /* Navigattie-Demo-Info.plist */,
 				6D757D402A313C1500E54AC9 /* Navigattie_Main.swift */,
 				6DB6F3EC2A35A5BB009B3705 /* Views */,
 				6DB6F3ED2A35A5BF009B3705 /* Extensions */,
@@ -99,6 +111,11 @@
 		6DB6F3F82A35A6FA009B3705 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				6DB6F4062A35AD69009B3705 /* Metropolis-Regular.otf */,
+				6DB6F4082A35AD7B009B3705 /* Metropolis-Medium.otf */,
+				6DB6F40B2A35AD7B009B3705 /* Metropolis-SemiBold.otf */,
+				6DB6F4092A35AD7B009B3705 /* Metropolis-Bold.otf */,
+				6DB6F40A2A35AD7B009B3705 /* Metropolis-ExtraBold.otf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -193,6 +210,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DB6F4072A35AD69009B3705 /* Metropolis-Regular.otf in Resources */,
+				6DB6F40C2A35AD7B009B3705 /* Metropolis-Medium.otf in Resources */,
+				6DB6F40E2A35AD7B009B3705 /* Metropolis-ExtraBold.otf in Resources */,
+				6DB6F40D2A35AD7B009B3705 /* Metropolis-Bold.otf in Resources */,
+				6DB6F40F2A35AD7B009B3705 /* Metropolis-SemiBold.otf in Resources */,
 				6D757D452A313C1600E54AC9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -342,6 +364,7 @@
 				DEVELOPMENT_TEAM = 78L5993673;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Navigattie-Demo-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -375,6 +398,7 @@
 				DEVELOPMENT_TEAM = 78L5993673;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Navigattie-Demo-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
