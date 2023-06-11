@@ -36,6 +36,11 @@ extension View {
     func visible(if condition: Bool) -> some View {
         opacity(condition ? 1 : 0)
     }
+    func then(_ body: (inout Self) -> Void) -> Self {
+        var result = self
+        body(&result)
+        return result
+    }
 }
 
 // MARK: - Helpers

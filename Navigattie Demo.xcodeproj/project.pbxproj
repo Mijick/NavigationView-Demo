@@ -27,6 +27,7 @@
 		6DB6F41D2A35DC81009B3705 /* MockData.Walkthrough.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6F41C2A35DC81009B3705 /* MockData.Walkthrough.swift */; };
 		6DB6F41F2A35DD1A009B3705 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6F41E2A35DD1A009B3705 /* HomeView.swift */; };
 		6DB6F4212A35E7C4009B3705 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6F4202A35E7C4009B3705 /* TabBar.swift */; };
+		6DB6F4232A35F33F009B3705 /* StandardHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6F4222A35F33F009B3705 /* StandardHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		6DB6F41C2A35DC81009B3705 /* MockData.Walkthrough.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.Walkthrough.swift; sourceTree = "<group>"; };
 		6DB6F41E2A35DD1A009B3705 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		6DB6F4202A35E7C4009B3705 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		6DB6F4222A35F33F009B3705 /* StandardHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				6DB6F4122A35B893009B3705 /* StandardButton.swift */,
+				6DB6F4222A35F33F009B3705 /* StandardHeader.swift */,
 				6DB6F4142A35C85E009B3705 /* PageIndicator.swift */,
 				6DB6F4202A35E7C4009B3705 /* TabBar.swift */,
 			);
@@ -277,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DB6F41D2A35DC81009B3705 /* MockData.Walkthrough.swift in Sources */,
+				6DB6F4232A35F33F009B3705 /* StandardHeader.swift in Sources */,
 				6DB6F3FE2A35A7A4009B3705 /* UIScreen++.swift in Sources */,
 				6DB6F4002A35A7B2009B3705 /* Spacer++.swift in Sources */,
 				6D757D412A313C1500E54AC9 /* Navigattie_Main.swift in Sources */,
