@@ -27,7 +27,7 @@ struct StandardHeader: View {
 private extension StandardHeader {
     func createHeader() -> some View {
         Text(text)
-            .font(.bold(27))
+            .font(.bold(25))
             .foregroundColor(.onBackgroundPrimary)
     }
     @ViewBuilder func createButton() -> some View { if let buttonText = config.buttonText {

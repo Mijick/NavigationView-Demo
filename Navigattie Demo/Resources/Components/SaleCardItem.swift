@@ -30,7 +30,7 @@ private extension SaleCardItem {
         Image(data.image)
             .resizable()
             .aspectRatio(contentMode: .fill)
-            .cornerRadius(9)
+            .cornerRadius(11)
     }
     func createBottomView() -> some View {
         VStack(alignment: .leading, spacing: 4) {

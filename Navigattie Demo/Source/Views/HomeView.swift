@@ -28,15 +28,14 @@ private extension HomeView {
     func createScrollableContent() -> some View {
         ScrollView(showsIndicators: false) {
             VStack(alignment: .leading, spacing: 0) {
-                Spacer.height(12)
+                Spacer.height(16)
                 createLogoView()
-                Spacer.height(40)
+                Spacer.height(36)
                 createStoriesContent()
                 Spacer.height(44)
                 createCardsContent()
                 Spacer.height(24)
             }
-            .alignHorizontally(.leading, .margin)
         }
     }
     func createTabBar() -> some View {
@@ -46,7 +45,7 @@ private extension HomeView {
 
 private extension HomeView {
     func createLogoView() -> some View {
-        Image("mc-navigattie-logo")
+        Image("mc-navigattie-logo").padding(.leading, .margin)
     }
     func createStoriesContent() -> some View {
         VStack(alignment: .leading, spacing: 20) {
@@ -64,38 +63,34 @@ private extension HomeView {
 
 private extension HomeView {
     func createStoriesHeader() -> some View {
-        StandardHeader(text: "Best stories")
+        StandardHeader(text: "Best stories").padding(.horizontal, .margin)
     }
     func createStoriesItems() -> some View {
         ScrollView(.horizontal, showsIndicators: false) {
             HStack(spacing: 20) {
                 ForEach(stories, id: \.title, content: StoryItem.init)
             }
+            .padding(.horizontal, .margin)
         }
     }
     func createCardsHeader() -> some View {
-        StandardHeader(text: "Picks for You").addButton("View all", action: {})
+        StandardHeader(text: "Picks for You")
+            .addButton("View all", action: {})
+            .padding(.horizontal, .margin)
     }
     func createCardsItems() -> some View {
-        EmptyView()
+        Grid(alignment: .topLeading, horizontalSpacing: 24, verticalSpacing: 16) {
+            ForEach(0..<saleCards.count / 2, id: \.self, content: createGridRow)
+        }
+        .padding(.horizontal, .margin)
     }
 }
 
 private extension HomeView {
-
+    func createGridRow(_ index: Int) -> some View {
+        GridRow {
+            SaleCardItem(data: saleCards[index])
+            SaleCardItem(data: saleCards[index * 2 + 1])
+        }
+    }
 }
-
-private extension HomeView {
-
-}
-
-private extension HomeView {
-
-}
-
-
-
-
-
-
-
