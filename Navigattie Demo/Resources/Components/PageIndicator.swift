@@ -33,6 +33,5 @@ private extension PageIndicator {
 
 private extension PageIndicator {
     var colour: [Bool: Color] {[ true: .onBackgroundPrimary, false: .onBackgroundTertiary ]}
-    var width: [Bool: CGFloat] {[ true: 8, false: 8 ]}
     var animation: Animation { .easeInOut(duration: 0.2) }
 }
