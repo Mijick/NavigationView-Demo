@@ -7,18 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6D757D412A313C1500E54AC9 /* Navigattie_DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D757D402A313C1500E54AC9 /* Navigattie_DemoApp.swift */; };
-		6D757D432A313C1500E54AC9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D757D422A313C1500E54AC9 /* ContentView.swift */; };
+		6D757D412A313C1500E54AC9 /* Navigattie_Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D757D402A313C1500E54AC9 /* Navigattie_Main.swift */; };
 		6D757D452A313C1600E54AC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D757D442A313C1600E54AC9 /* Assets.xcassets */; };
-		6D757D482A313C1600E54AC9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D757D472A313C1600E54AC9 /* Preview Assets.xcassets */; };
+		6DB6F3F42A35A637009B3705 /* WalkthroughView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6F3F32A35A637009B3705 /* WalkthroughView.swift */; };
+		6DB6F3F72A35A661009B3705 /* Navigattie in Frameworks */ = {isa = PBXBuildFile; productRef = 6DB6F3F62A35A661009B3705 /* Navigattie */; };
+		6DB6F3FA2A35A781009B3705 /* Font++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6F3F92A35A781009B3705 /* Font++.swift */; };
+		6DB6F3FC2A35A785009B3705 /* Color++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6F3FB2A35A785009B3705 /* Color++.swift */; };
+		6DB6F3FE2A35A7A4009B3705 /* UIScreen++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6F3FD2A35A7A4009B3705 /* UIScreen++.swift */; };
+		6DB6F4002A35A7B2009B3705 /* Spacer++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6F3FF2A35A7B2009B3705 /* Spacer++.swift */; };
+		6DB6F4022A35A7BF009B3705 /* View++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6F4012A35A7BF009B3705 /* View++.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6D757D3D2A313C1500E54AC9 /* Navigattie Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Navigattie Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6D757D402A313C1500E54AC9 /* Navigattie_DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigattie_DemoApp.swift; sourceTree = "<group>"; };
-		6D757D422A313C1500E54AC9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6D757D402A313C1500E54AC9 /* Navigattie_Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigattie_Main.swift; sourceTree = "<group>"; };
 		6D757D442A313C1600E54AC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6D757D472A313C1600E54AC9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6DB6F3F32A35A637009B3705 /* WalkthroughView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughView.swift; sourceTree = "<group>"; };
+		6DB6F3F92A35A781009B3705 /* Font++.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font++.swift"; sourceTree = "<group>"; };
+		6DB6F3FB2A35A785009B3705 /* Color++.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color++.swift"; sourceTree = "<group>"; };
+		6DB6F3FD2A35A7A4009B3705 /* UIScreen++.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScreen++.swift"; sourceTree = "<group>"; };
+		6DB6F3FF2A35A7B2009B3705 /* Spacer++.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Spacer++.swift"; sourceTree = "<group>"; };
+		6DB6F4012A35A7BF009B3705 /* View++.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View++.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DB6F3F72A35A661009B3705 /* Navigattie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,20 +61,72 @@
 		6D757D3F2A313C1500E54AC9 /* Navigattie Demo */ = {
 			isa = PBXGroup;
 			children = (
-				6D757D402A313C1500E54AC9 /* Navigattie_DemoApp.swift */,
-				6D757D422A313C1500E54AC9 /* ContentView.swift */,
-				6D757D442A313C1600E54AC9 /* Assets.xcassets */,
-				6D757D462A313C1600E54AC9 /* Preview Content */,
+				6D757D402A313C1500E54AC9 /* Navigattie_Main.swift */,
+				6DB6F3EC2A35A5BB009B3705 /* Views */,
+				6DB6F3ED2A35A5BF009B3705 /* Extensions */,
+				6DB6F3EE2A35A5CA009B3705 /* Assets */,
 			);
 			path = "Navigattie Demo";
 			sourceTree = "<group>";
 		};
-		6D757D462A313C1600E54AC9 /* Preview Content */ = {
+		6DB6F3EC2A35A5BB009B3705 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				6D757D472A313C1600E54AC9 /* Preview Assets.xcassets */,
+				6DB6F3F32A35A637009B3705 /* WalkthroughView.swift */,
 			);
-			path = "Preview Content";
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6DB6F3ED2A35A5BF009B3705 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6DB6F4032A35A7CF009B3705 /* Assets */,
+				6DB6F4042A35A7E7009B3705 /* Views */,
+				6DB6F4052A35A7FA009B3705 /* Others */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6DB6F3EE2A35A5CA009B3705 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				6D757D442A313C1600E54AC9 /* Assets.xcassets */,
+				6DB6F3F82A35A6FA009B3705 /* Fonts */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		6DB6F3F82A35A6FA009B3705 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		6DB6F4032A35A7CF009B3705 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				6DB6F3F92A35A781009B3705 /* Font++.swift */,
+				6DB6F3FB2A35A785009B3705 /* Color++.swift */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		6DB6F4042A35A7E7009B3705 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6DB6F4012A35A7BF009B3705 /* View++.swift */,
+				6DB6F3FF2A35A7B2009B3705 /* Spacer++.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6DB6F4052A35A7FA009B3705 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				6DB6F3FD2A35A7A4009B3705 /* UIScreen++.swift */,
+			);
+			path = Others;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +145,9 @@
 			dependencies = (
 			);
 			name = "Navigattie Demo";
+			packageProductDependencies = (
+				6DB6F3F62A35A661009B3705 /* Navigattie */,
+			);
 			productName = "Navigattie Demo";
 			productReference = 6D757D3D2A313C1500E54AC9 /* Navigattie Demo.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +176,9 @@
 				Base,
 			);
 			mainGroup = 6D757D342A313C1400E54AC9;
+			packageReferences = (
+				6DB6F3F52A35A661009B3705 /* XCRemoteSwiftPackageReference "Navigattie" */,
+			);
 			productRefGroup = 6D757D3E2A313C1500E54AC9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,7 +193,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D757D482A313C1600E54AC9 /* Preview Assets.xcassets in Resources */,
 				6D757D452A313C1600E54AC9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +204,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D757D432A313C1500E54AC9 /* ContentView.swift in Sources */,
-				6D757D412A313C1500E54AC9 /* Navigattie_DemoApp.swift in Sources */,
+				6DB6F3FE2A35A7A4009B3705 /* UIScreen++.swift in Sources */,
+				6DB6F4002A35A7B2009B3705 /* Spacer++.swift in Sources */,
+				6D757D412A313C1500E54AC9 /* Navigattie_Main.swift in Sources */,
+				6DB6F3FC2A35A785009B3705 /* Color++.swift in Sources */,
+				6DB6F3F42A35A637009B3705 /* WalkthroughView.swift in Sources */,
+				6DB6F3FA2A35A781009B3705 /* Font++.swift in Sources */,
+				6DB6F4022A35A7BF009B3705 /* View++.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,18 +335,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Navigattie Demo/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 78L5993673;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -282,9 +355,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mijick.Navigattie-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -292,18 +368,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Navigattie Demo/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 78L5993673;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,9 +388,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mijick.Navigattie-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -339,6 +419,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6DB6F3F52A35A661009B3705 /* XCRemoteSwiftPackageReference "Navigattie" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Mijick/Navigattie";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6DB6F3F62A35A661009B3705 /* Navigattie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6DB6F3F52A35A661009B3705 /* XCRemoteSwiftPackageReference "Navigattie" */;
+			productName = Navigattie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6D757D352A313C1400E54AC9 /* Project object */;
 }

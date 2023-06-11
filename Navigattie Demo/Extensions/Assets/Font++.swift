@@ -1,5 +1,5 @@
 //
-//  Navigattie_DemoApp.swift of Navigattie Demo
+//  Font++.swift of Navigattie Demo
 //
 //  Created by Tomasz Kurylik
 //    - Twitter: https://twitter.com/tkurylik
@@ -9,12 +9,3 @@
 
 
 import SwiftUI
-
-@main
-struct Navigattie_DemoApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
-    }
-}
