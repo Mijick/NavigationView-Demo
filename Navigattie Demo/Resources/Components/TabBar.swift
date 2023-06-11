@@ -27,7 +27,7 @@ private extension TabBar {
         Button(action: onItemTap) {
             Image(item.imageName)
                 .resizable()
-                .frame(28)
+                .frame(24)
                 .foregroundColor(getColour(item))
         }
         .frame(maxWidth: .infinity)

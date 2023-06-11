@@ -66,7 +66,7 @@ private extension SaleCardItem {
             .fixedSize(horizontal: false, vertical: true)
     }
     func createPriceText() -> some View {
-        Text(data.price, format: .currency(code: "PLN"))
+        Text(data.price, format: .currency(code: "GBP"))
             .font(.semiBold(13))
             .foregroundColor(.accentPrimary)
             .lineLimit(1)

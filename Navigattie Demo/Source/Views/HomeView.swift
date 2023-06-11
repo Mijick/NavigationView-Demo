@@ -32,9 +32,9 @@ private extension HomeView {
     func createScrollableContent() -> some View {
         ScrollView(showsIndicators: false) {
             VStack(alignment: .leading, spacing: 0) {
-                Spacer.height(40)
+                Spacer.height(32)
                 createStoriesContent()
-                Spacer.height(44)
+                Spacer.height(52)
                 createCardsContent()
                 Spacer.height(24)
             }
