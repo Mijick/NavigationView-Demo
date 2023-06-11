@@ -96,10 +96,13 @@ private extension WalkthroughView {
 
 private extension WalkthroughView {
     func onSkipButtonTap() {
-        
+        HomeView().push(with: .verticalSlide)
     }
     func onNextButtonTap() {
-        if !isLastPage { return pageIndex += 1 }
+        switch isLastPage {
+            case true: HomeView().push(with: .verticalSlide)
+            case false: pageIndex += 1
+        }
     }
 }
 
