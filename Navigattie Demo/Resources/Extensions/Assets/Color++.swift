@@ -14,6 +14,8 @@ extension Color {
     static let accentPrimary: Color = .init(hex: 0x388091)
     static let accentSecondary: Color = .init(hex: 0xE4645E)
 
+    static let backgroundPrimary: Color = .init(hex: 0xFFFFFF)
+
     static let onBackgroundPrimary: Color = .init(hex: 0x292D32)
     static let onBackgroundSecondary: Color = .init(hex: 0x555B62)
     static let onBackgroundTertiary: Color = .init(hex: 0xF1F1F1)
