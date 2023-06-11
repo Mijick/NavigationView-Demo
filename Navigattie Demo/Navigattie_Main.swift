@@ -12,9 +12,11 @@ import SwiftUI
 import Navigattie
 
 @main struct Navigattie_Main: App {
-    var body: some Scene {
-        WindowGroup { WalkthroughView().implementNavigationView(config: navigationConfig) }
-    }
+    var body: some Scene { WindowGroup {
+        WalkthroughView()
+            .implementNavigationView(config: navigationConfig)
+            .preferredColorScheme(.light)
+    }}
 }
 private extension Navigattie_Main {
     var navigationConfig: NavigationConfig {

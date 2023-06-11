@@ -43,7 +43,7 @@ private extension TabBar {
 private extension TabBar {
     func getColour(_ item: Item) -> Color {
         switch item {
-            case .home: return .accentSecondary
+            case .home: return .accentPrimary
             case .search, .cart, .bookmarks, .profile: return .onBackgroundSecondary
         }
     }

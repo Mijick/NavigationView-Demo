@@ -18,6 +18,7 @@ struct HomeView: NavigatableView {
 
     var body: some View {
         VStack(spacing: 0) {
+            createNavigationBar()
             createScrollableContent()
             createTabBar()
         }
@@ -25,12 +26,13 @@ struct HomeView: NavigatableView {
 }
 
 private extension HomeView {
+    func createNavigationBar() -> some View {
+        NavigationBar()
+    }
     func createScrollableContent() -> some View {
         ScrollView(showsIndicators: false) {
             VStack(alignment: .leading, spacing: 0) {
-                Spacer.height(16)
-                createLogoView()
-                Spacer.height(36)
+                Spacer.height(40)
                 createStoriesContent()
                 Spacer.height(44)
                 createCardsContent()
@@ -44,9 +46,6 @@ private extension HomeView {
 }
 
 private extension HomeView {
-    func createLogoView() -> some View {
-        Image("mc-navigattie-logo").padding(.leading, .margin)
-    }
     func createStoriesContent() -> some View {
         VStack(alignment: .leading, spacing: 20) {
             createStoriesHeader()
