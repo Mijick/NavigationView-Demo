@@ -1,0 +1,22 @@
+[
+    {
+        "illustrationName": "illustration-walkthrough-1",
+        "title": "Welcome to Our App",
+        "description": "Get ready to explore the amazing features of our app!"
+    },
+    {
+        "illustrationName": "illustration-walkthrough-2",
+        "title": "Customize Your Experience",
+        "description": "Personalize the app to suit your preferences and needs."
+    },
+    {
+        "illustrationName": "illustration-walkthrough-3",
+        "title": "Discover New Possibilities",
+        "description": "Unleash the power of our app and unlock endless possibilities."
+    },
+    {
+        "illustrationName": "illustration-walkthrough-4",
+        "title": "Stay Connected Anywhere",
+        "description": "Access our app and stay connected wherever you go."
+    }
+]

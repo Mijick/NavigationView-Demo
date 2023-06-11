@@ -1,0 +1,62 @@
+[
+    {
+        "creationDate": "2022-01-15T09:30:00Z",
+        "image": "placeholder-story-1",
+        "title": "The Lost Treasure",
+        "author": "Emma Thompson"
+    },
+    {
+        "creationDate": "2022-02-20T14:45:00Z",
+        "image": "placeholder-story-2",
+        "title": "The Enchanted Forest",
+        "author": "Oliver Collins"
+    },
+    {
+        "creationDate": "2022-03-25T18:15:00Z",
+        "image": "placeholder-story-3",
+        "title": "Mystery at Midnight",
+        "author": "Sophia Davis"
+    },
+    {
+        "creationDate": "2022-04-30T10:00:00Z",
+        "image": "placeholder-story-4",
+        "title": "A Magical Journey",
+        "author": "Maxwell Parker"
+    },
+    {
+        "creationDate": "2022-06-05T16:30:00Z",
+        "image": "placeholder-story-5",
+        "title": "The Secret Passage",
+        "author": "Isabella Reed"
+    },
+    {
+        "creationDate": "2022-07-10T11:45:00Z",
+        "image": "placeholder-story-6",
+        "title": "The Mysterious Stranger",
+        "author": "Liam Foster"
+    },
+    {
+        "creationDate": "2022-08-15T15:20:00Z",
+        "image": "placeholder-story-7",
+        "title": "Escape to Wonderland",
+        "author": "Ava Green"
+    },
+    {
+        "creationDate": "2022-09-20T13:00:00Z",
+        "image": "placeholder-story-8",
+        "title": "The Hidden Key",
+        "author": "Noah Mitchell"
+    },
+    {
+        "creationDate": "2022-10-25T17:40:00Z",
+        "image": "placeholder-story-9",
+        "title": "The Haunted Mansion",
+        "author": "Mia Turner"
+    },
+    {
+        "creationDate": "2022-11-30T12:15:00Z",
+        "image": "placeholder-story-10",
+        "title": "The Time Traveler's Diary",
+        "author": "Liam Johnson"
+    }
+]
