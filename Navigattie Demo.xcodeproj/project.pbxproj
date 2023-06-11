@@ -31,6 +31,8 @@
 		6DB6F4252A35F3F9009B3705 /* MockData.Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6F4242A35F3F9009B3705 /* MockData.Story.swift */; };
 		6DB6F4282A35FB20009B3705 /* Date++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6F4272A35FB20009B3705 /* Date++.swift */; };
 		6DB6F42A2A360181009B3705 /* StoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6F4292A360181009B3705 /* StoryItem.swift */; };
+		6DB6F42C2A360221009B3705 /* MockData.SaleCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6F42B2A360221009B3705 /* MockData.SaleCard.swift */; };
+		6DB6F42F2A3606A2009B3705 /* MockData-SaleCard.json in Resources */ = {isa = PBXBuildFile; fileRef = 6DB6F42E2A3606A2009B3705 /* MockData-SaleCard.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +61,8 @@
 		6DB6F4242A35F3F9009B3705 /* MockData.Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.Story.swift; sourceTree = "<group>"; };
 		6DB6F4272A35FB20009B3705 /* Date++.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date++.swift"; sourceTree = "<group>"; };
 		6DB6F4292A360181009B3705 /* StoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryItem.swift; sourceTree = "<group>"; };
+		6DB6F42B2A360221009B3705 /* MockData.SaleCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.SaleCard.swift; sourceTree = "<group>"; };
+		6DB6F42E2A3606A2009B3705 /* MockData-SaleCard.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "MockData-SaleCard.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +129,7 @@
 				6D757D442A313C1600E54AC9 /* Assets.xcassets */,
 				6DB6F4102A35ADB8009B3705 /* Info.plist */,
 				6DB6F3F82A35A6FA009B3705 /* Fonts */,
+				6DB6F42D2A3604F2009B3705 /* Mock Data */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -185,6 +190,7 @@
 				6DB6F41A2A35DC6E009B3705 /* MockData.swift */,
 				6DB6F41C2A35DC81009B3705 /* MockData.Walkthrough.swift */,
 				6DB6F4242A35F3F9009B3705 /* MockData.Story.swift */,
+				6DB6F42B2A360221009B3705 /* MockData.SaleCard.swift */,
 			);
 			path = "Mock Data";
 			sourceTree = "<group>";
@@ -214,6 +220,14 @@
 				6DB6F4272A35FB20009B3705 /* Date++.swift */,
 			);
 			path = Foundation;
+			sourceTree = "<group>";
+		};
+		6DB6F42D2A3604F2009B3705 /* Mock Data */ = {
+			isa = PBXGroup;
+			children = (
+				6DB6F42E2A3606A2009B3705 /* MockData-SaleCard.json */,
+			);
+			path = "Mock Data";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,6 +295,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DB6F4072A35AD69009B3705 /* Metropolis-Regular.otf in Resources */,
+				6DB6F42F2A3606A2009B3705 /* MockData-SaleCard.json in Resources */,
 				6DB6F40C2A35AD7B009B3705 /* Metropolis-Medium.otf in Resources */,
 				6DB6F40E2A35AD7B009B3705 /* Metropolis-ExtraBold.otf in Resources */,
 				6DB6F40D2A35AD7B009B3705 /* Metropolis-Bold.otf in Resources */,
@@ -299,6 +314,7 @@
 				6DB6F42A2A360181009B3705 /* StoryItem.swift in Sources */,
 				6DB6F41D2A35DC81009B3705 /* MockData.Walkthrough.swift in Sources */,
 				6DB6F4232A35F33F009B3705 /* StandardHeader.swift in Sources */,
+				6DB6F42C2A360221009B3705 /* MockData.SaleCard.swift in Sources */,
 				6DB6F3FE2A35A7A4009B3705 /* UIScreen++.swift in Sources */,
 				6DB6F4002A35A7B2009B3705 /* Spacer++.swift in Sources */,
 				6D757D412A313C1500E54AC9 /* Navigattie_Main.swift in Sources */,

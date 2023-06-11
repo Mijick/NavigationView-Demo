@@ -13,6 +13,7 @@ import Navigattie
 
 struct HomeView: NavigatableView {
     private let stories = MockData.Story.generate()
+    private let saleCards = MockData.SaleCard.generate()
 
 
     var body: some View {
@@ -91,3 +92,10 @@ private extension HomeView {
 private extension HomeView {
 
 }
+
+
+
+
+
+
+
