@@ -17,6 +17,8 @@ extension Color {
     static let onBackgroundPrimary: Color = .init(hex: 0x292D32)
     static let onBackgroundSecondary: Color = .init(hex: 0x555B62)
     static let onBackgroundTertiary: Color = .init(hex: 0xF1F1F1)
+
+    static let onAccent: Color = .white
 }
 
 // MARK: - Initialisation with HEX value
