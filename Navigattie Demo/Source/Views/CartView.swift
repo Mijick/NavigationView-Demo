@@ -74,7 +74,7 @@ private extension CartView {
             .alignHorizontally(.leading, .margin)
     }
     func createDiscountItem() -> some View {
-        EmptyView()
+        DiscountItem().padding(.horizontal, .margin)
     }
 }
 

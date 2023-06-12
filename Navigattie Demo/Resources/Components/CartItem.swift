@@ -40,7 +40,7 @@ private extension CartItem {
 
 private extension CartItem {
     func createRightTopView() -> some View {
-        VStack(alignment: .leading, spacing: 0) {
+        VStack(alignment: .leading, spacing: 2) {
             createTitleText()
             createLicenseText()
         }

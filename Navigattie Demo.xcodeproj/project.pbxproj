@@ -14,6 +14,7 @@
 		6DAC3E882A37CA980044FFAE /* MockData.CartObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAC3E872A37CA980044FFAE /* MockData.CartObject.swift */; };
 		6DAC3E8A2A37CCBA0044FFAE /* MockData-CartObject.json in Resources */ = {isa = PBXBuildFile; fileRef = 6DAC3E892A37CCBA0044FFAE /* MockData-CartObject.json */; };
 		6DAC3E8C2A37CD400044FFAE /* CartItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAC3E8B2A37CD400044FFAE /* CartItem.swift */; };
+		6DAC3E8E2A37D9570044FFAE /* DiscountItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAC3E8D2A37D9570044FFAE /* DiscountItem.swift */; };
 		6DB6F3F42A35A637009B3705 /* WalkthroughView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6F3F32A35A637009B3705 /* WalkthroughView.swift */; };
 		6DB6F3F72A35A661009B3705 /* Navigattie in Frameworks */ = {isa = PBXBuildFile; productRef = 6DB6F3F62A35A661009B3705 /* Navigattie */; };
 		6DB6F3FA2A35A781009B3705 /* Font++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6F3F92A35A781009B3705 /* Font++.swift */; };
@@ -53,6 +54,7 @@
 		6DAC3E872A37CA980044FFAE /* MockData.CartObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.CartObject.swift; sourceTree = "<group>"; };
 		6DAC3E892A37CCBA0044FFAE /* MockData-CartObject.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "MockData-CartObject.json"; sourceTree = "<group>"; };
 		6DAC3E8B2A37CD400044FFAE /* CartItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItem.swift; sourceTree = "<group>"; };
+		6DAC3E8D2A37D9570044FFAE /* DiscountItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountItem.swift; sourceTree = "<group>"; };
 		6DB6F3F32A35A637009B3705 /* WalkthroughView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughView.swift; sourceTree = "<group>"; };
 		6DB6F3F92A35A781009B3705 /* Font++.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font++.swift"; sourceTree = "<group>"; };
 		6DB6F3FB2A35A785009B3705 /* Color++.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color++.swift"; sourceTree = "<group>"; };
@@ -202,6 +204,7 @@
 				6DB6F4292A360181009B3705 /* StoryItem.swift */,
 				6DB6F4342A3617FD009B3705 /* SaleCardItem.swift */,
 				6DAC3E8B2A37CD400044FFAE /* CartItem.swift */,
+				6DAC3E8D2A37D9570044FFAE /* DiscountItem.swift */,
 				6DB6F4362A36269D009B3705 /* Separator.swift */,
 			);
 			path = Components;
@@ -339,6 +342,7 @@
 				6DB6F4232A35F33F009B3705 /* StandardHeader.swift in Sources */,
 				6DB6F42C2A360221009B3705 /* MockData.SaleCard.swift in Sources */,
 				6DAC3E862A37C8FD0044FFAE /* NavigationBar.swift in Sources */,
+				6DAC3E8E2A37D9570044FFAE /* DiscountItem.swift in Sources */,
 				6DAC3E882A37CA980044FFAE /* MockData.CartObject.swift in Sources */,
 				6DB6F3FE2A35A7A4009B3705 /* UIScreen++.swift in Sources */,
 				6DB6F4352A3617FD009B3705 /* SaleCardItem.swift in Sources */,
