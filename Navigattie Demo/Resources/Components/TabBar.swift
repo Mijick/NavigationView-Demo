@@ -41,7 +41,9 @@ private extension TabBar {
             .frame(24)
     }
     func createItemText(_ item: Item) -> some View {
-        Text(item.rawValue.capitalized).font(.regular(11))
+        Text(item.rawValue.capitalized)
+            .font(.regular(11))
+            .lineLimit(1)
     }
 }
 

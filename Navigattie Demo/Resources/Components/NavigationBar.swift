@@ -11,55 +11,31 @@
 import SwiftUI
 
 struct NavigationBar: View {
-    @Environment(\.openURL) var openURL
+    let title: String
 
 
     var body: some View {
-        VStack(spacing: 0) {
-            Spacer.height(12)
-            createTopView()
-            Spacer.height(8)
-            createSeparator()
+        ZStack {
+            createBackButton()
+            createTitle()
         }
+        .padding(.vertical, 12)
     }
 }
 
 private extension NavigationBar {
-    func createTopView() -> some View {
-        HStack(spacing: 0) {
-            createLogo()
-            Spacer()
-            createOpenGithubButton()
+    func createBackButton() -> some View {
+        Button(action: pop) {
+            Image("sc-arrow-left")
+                .resizable()
+                .frame(28)
+                .foregroundColor(.onBackgroundPrimary)
         }
-        .padding(.horizontal, .margin)
+        .alignHorizontally(.leading)
     }
-    func createSeparator() -> some View {
-        Separator()
+    func createTitle() -> some View {
+        Text(title)
+            .font(.bold(15))
+            .foregroundColor(.onBackgroundPrimary)
     }
-}
-
-private extension NavigationBar {
-    func createLogo() -> some View {
-        Image("mc-navigattie-logo")
-    }
-    func createOpenGithubButton() -> some View {
-        Button(action: onVisitGithubButtonTap) {
-            Text("Visit Github")
-                .font(.semiBold(13))
-                .foregroundColor(.onAccent)
-                .padding(10)
-                .background(Color.onBackgroundPrimary)
-                .mask(Capsule())
-        }
-    }
-}
-
-private extension NavigationBar {
-    func onVisitGithubButtonTap() {
-        openURL(repoUrl)
-    }
-}
-
-private extension NavigationBar {
-    var repoUrl: URL { URL(string: "https://github.com/Mijick")! }
 }

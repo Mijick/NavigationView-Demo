@@ -18,7 +18,7 @@ struct HomeView: NavigatableView {
 
     var body: some View {
         VStack(spacing: 0) {
-            createNavigationBar()
+            createPromoBar()
             createScrollableContent()
             createTabBar()
         }
@@ -26,8 +26,8 @@ struct HomeView: NavigatableView {
 }
 
 private extension HomeView {
-    func createNavigationBar() -> some View {
-        NavigationBar()
+    func createPromoBar() -> some View {
+        PromoBar()
     }
     func createScrollableContent() -> some View {
         ScrollView(showsIndicators: false) {
