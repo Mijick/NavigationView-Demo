@@ -1,0 +1,23 @@
+[
+    {
+        "image": "placeholder-cart-object-1",
+        "title": "Whimsical Adventures",
+        "license": "Personal license",
+        "quantity": 1,
+        "price": 9.99
+    },
+    {
+        "image": "placeholder-cart-object-2",
+        "title": "Nature's Serenade",
+        "license": "Commercial license",
+        "quantity": 1,
+        "price": 199.99
+    },
+    {
+        "image": "placeholder-cart-object-3",
+        "title": "Thrill Seeker's Paradise",
+        "license": "Personal license",
+        "quantity": 1,
+        "price": 14.99
+    }
+]
