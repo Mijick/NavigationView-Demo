@@ -17,7 +17,6 @@ struct TabBar: View {
         }
         .frame(maxWidth: .infinity)
         .padding(.top, 12)
-        .padding(.bottom, 4)
         .padding(.horizontal, .margin)
     }
 }
@@ -25,12 +24,24 @@ struct TabBar: View {
 private extension TabBar {
     func createItem(_ item: Item) -> some View {
         Button(action: onItemTap) {
-            Image(item.imageName)
-                .resizable()
-                .frame(24)
-                .foregroundColor(getColour(item))
+            VStack(spacing: 8) {
+                createItemIcon(item)
+                createItemText(item)
+            }
+            .foregroundColor(getColour(item))
         }
         .frame(maxWidth: .infinity)
+    }
+}
+
+private extension TabBar {
+    func createItemIcon(_ item: Item) -> some View {
+        Image(item.imageName)
+            .resizable()
+            .frame(24)
+    }
+    func createItemText(_ item: Item) -> some View {
+        Text(item.rawValue.capitalized).font(.regular(11))
     }
 }
 
