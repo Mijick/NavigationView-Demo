@@ -35,12 +35,15 @@ struct StoryView: NavigatableView {
         .statusBarHidden()
         .animation(animation, value: currentIndex)
         .onReceive(timer, perform: onTimerTick)
+        .onTapGesture(perform: onTap)
     }
 }
 
 private extension StoryView {
     func createStoriesProgressIndicator() -> some View {
-        ProgressIndicator(numberOfItems: stories.count, currentIndex: currentIndex, currentProgress: currentProgress).padding(.horizontal, margin)
+        ProgressIndicator(numberOfItems: stories.count, currentIndex: currentIndex, currentProgress: currentProgress)
+            .padding(.horizontal, margin)
+            .animation(nil, value: currentIndex)
     }
     func createTopBar() -> some View {
         StoryTopBar(story: stories[currentIndex]).padding(.horizontal, margin)
@@ -78,10 +81,12 @@ private extension StoryView {
 
 // MARK: Tap Gesture Handlers
 private extension StoryView {
-
-}
-private extension StoryView {
-
+    func onTap(_ point: CGPoint) {
+        switch point.x < UIScreen.width / 2 {
+            case true: currentProgress = 0; currentIndex = max(0, currentIndex - 1)
+            case false: currentProgress = 0; currentIndex = min(stories.count - 1, currentIndex + 1)
+        }
+    }
 }
 
 private extension StoryView {

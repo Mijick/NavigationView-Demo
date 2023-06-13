@@ -11,6 +11,7 @@
 import SwiftUI
 
 extension UIScreen {
+    static let width: CGFloat = UIScreen.main.bounds.size.width
     static let safeArea: UIEdgeInsets = {
         UIApplication.shared.connectedScenes
             .filter({$0.activationState == .foregroundActive})
