@@ -68,6 +68,7 @@ private extension StoryTopBar {
         Text(story.title)
             .font(.semiBold(15))
             .foregroundColor(.onDarkBackgroundPrimary)
+            .lineLimit(1)
     }
     func createTimeText() -> some View {
         Text(story.creationDate.displayAsTimeAgo())
