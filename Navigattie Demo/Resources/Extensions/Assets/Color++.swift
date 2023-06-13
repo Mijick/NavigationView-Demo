@@ -15,10 +15,14 @@ extension Color {
     static let accentSecondary: Color = .init(hex: 0xE4645E)
 
     static let backgroundPrimary: Color = .init(hex: 0xFFFFFF)
+    static let darkBackground: Color = .init(hex: 0x111111)
 
     static let onBackgroundPrimary: Color = .init(hex: 0x292D32)
     static let onBackgroundSecondary: Color = .init(hex: 0x555B62)
     static let onBackgroundTertiary: Color = .init(hex: 0xF1F1F1)
+
+    static let onDarkBackgroundPrimary: Color = .init(hex: 0xFBFBFB)
+    static let onDarkBackgroundSecondary: Color = .init(hex: 0x979797)
 
     static let onAccent: Color = .white
 }

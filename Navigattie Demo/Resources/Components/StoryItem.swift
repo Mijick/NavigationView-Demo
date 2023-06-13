@@ -43,6 +43,6 @@ private extension StoryItem {
 
 private extension StoryItem {
     func onTap() {
-
+        StoryView(story: story).push(with: .scale)
     }
 }
