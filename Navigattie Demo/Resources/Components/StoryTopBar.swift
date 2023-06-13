@@ -51,7 +51,7 @@ private extension StoryTopBar {
 
 private extension StoryTopBar {
     func createTitleAndTimeText() -> some View {
-        HStack(spacing: 8) {
+        HStack(spacing: 6) {
             createTitleText()
             createTimeText()
         }
