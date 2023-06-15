@@ -19,7 +19,7 @@ struct StoryView: NavigatableView {
     private let allStories = MockData.Story.generate()
 
 
-    var backgroundColour: Color? { .darkBackground }
+    func configure(view: NavigationConfig) -> NavigationConfig { view.backgroundColour(.darkBackground) }
     var body: some View {
         VStack(spacing: 0) {
             Spacer.height(12)

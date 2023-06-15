@@ -19,8 +19,8 @@ import Navigattie
     }}
 }
 private extension Navigattie_Main {
-    var navigationConfig: NavigationConfig {
-        let config = NavigationConfig()
+    var navigationConfig: NavigationGlobalConfig {
+        let config = NavigationGlobalConfig()
         config.backgroundColour = .backgroundPrimary
         return config
     }
