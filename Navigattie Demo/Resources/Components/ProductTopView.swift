@@ -54,7 +54,7 @@ private extension ProductTopView {
                 .background(Color.onDarkBackgroundPrimary.opacity(0.12))
                 .cornerRadius(6)
         }
-        .alignVertically(.bottom, 24)
+        .alignVertically(.bottom, 44)
         .alignHorizontally(.trailing, .margin)
     }
 }
@@ -78,6 +78,16 @@ private extension ProductTopView {
 // MARK: - Image Linear Gradient
 fileprivate struct ImageGradient: View {
     var body: some View {
+        ZStack(alignment: .bottom) {
+            createGradient()
+            createBackgroundExtension()
+        }
+
+    }
+}
+
+private extension ImageGradient {
+    func createGradient() -> some View {
         LinearGradient(stops: stops, startPoint: .top, endPoint: .bottom)
     }
 }
@@ -88,6 +98,15 @@ private extension ImageGradient {
         .init(color: .black.opacity(0), location: 0.5),
         .init(color: .black.opacity(0.44), location: 1)
     ]}
+}
+
+private extension ImageGradient {
+    func createBackgroundExtension() -> some View {
+        RoundedRectangle(cornerRadius: 32, style: .continuous)
+            .fill(Color.backgroundPrimary)
+            .frame(height: 60)
+            .offset(y: 28)
+    }
 }
 
 // MARK: - Button
