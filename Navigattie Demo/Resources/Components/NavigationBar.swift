@@ -35,7 +35,7 @@ private extension NavigationBar {
     }
     func createTitle() -> some View {
         Text(title)
-            .font(.bold(15))
+            .font(.bold(17))
             .foregroundColor(.onBackgroundPrimary)
     }
 }
