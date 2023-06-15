@@ -7,18 +7,103 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6D757D412A313C1500E54AC9 /* Navigattie_DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D757D402A313C1500E54AC9 /* Navigattie_DemoApp.swift */; };
-		6D757D432A313C1500E54AC9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D757D422A313C1500E54AC9 /* ContentView.swift */; };
+		6D037F012A3863D400F40F20 /* StoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D037F002A3863D400F40F20 /* StoryView.swift */; };
+		6D037F032A386A5300F40F20 /* StoryTopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D037F022A386A5300F40F20 /* StoryTopBar.swift */; };
+		6D037F052A38741000F40F20 /* StoryBottomBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D037F042A38741000F40F20 /* StoryBottomBar.swift */; };
+		6D037F072A387AF900F40F20 /* ProgressIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D037F062A387AF900F40F20 /* ProgressIndicator.swift */; };
+		6D037F0A2A3888E200F40F20 /* Transition+CubeRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D037F092A3888E200F40F20 /* Transition+CubeRotation.swift */; };
+		6D47EB3E2A391979009587C5 /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D47EB3D2A391979009587C5 /* ProductView.swift */; };
+		6D757D412A313C1500E54AC9 /* Navigattie_Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D757D402A313C1500E54AC9 /* Navigattie_Main.swift */; };
 		6D757D452A313C1600E54AC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D757D442A313C1600E54AC9 /* Assets.xcassets */; };
-		6D757D482A313C1600E54AC9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D757D472A313C1600E54AC9 /* Preview Assets.xcassets */; };
+		6DAC3E842A37C5550044FFAE /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAC3E832A37C5550044FFAE /* CartView.swift */; };
+		6DAC3E862A37C8FD0044FFAE /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAC3E852A37C8FD0044FFAE /* NavigationBar.swift */; };
+		6DAC3E882A37CA980044FFAE /* MockData.CartObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAC3E872A37CA980044FFAE /* MockData.CartObject.swift */; };
+		6DAC3E8A2A37CCBA0044FFAE /* MockData-CartObject.json in Resources */ = {isa = PBXBuildFile; fileRef = 6DAC3E892A37CCBA0044FFAE /* MockData-CartObject.json */; };
+		6DAC3E8C2A37CD400044FFAE /* CartItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAC3E8B2A37CD400044FFAE /* CartItem.swift */; };
+		6DAC3E8E2A37D9570044FFAE /* DiscountItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAC3E8D2A37D9570044FFAE /* DiscountItem.swift */; };
+		6DB6F3F42A35A637009B3705 /* WalkthroughView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6F3F32A35A637009B3705 /* WalkthroughView.swift */; };
+		6DB6F3F72A35A661009B3705 /* Navigattie in Frameworks */ = {isa = PBXBuildFile; productRef = 6DB6F3F62A35A661009B3705 /* Navigattie */; };
+		6DB6F3FA2A35A781009B3705 /* Font++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6F3F92A35A781009B3705 /* Font++.swift */; };
+		6DB6F3FC2A35A785009B3705 /* Color++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6F3FB2A35A785009B3705 /* Color++.swift */; };
+		6DB6F3FE2A35A7A4009B3705 /* UIScreen++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6F3FD2A35A7A4009B3705 /* UIScreen++.swift */; };
+		6DB6F4002A35A7B2009B3705 /* Spacer++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6F3FF2A35A7B2009B3705 /* Spacer++.swift */; };
+		6DB6F4022A35A7BF009B3705 /* View++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6F4012A35A7BF009B3705 /* View++.swift */; };
+		6DB6F4072A35AD69009B3705 /* Metropolis-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6DB6F4062A35AD69009B3705 /* Metropolis-Regular.otf */; };
+		6DB6F40C2A35AD7B009B3705 /* Metropolis-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6DB6F4082A35AD7B009B3705 /* Metropolis-Medium.otf */; };
+		6DB6F40D2A35AD7B009B3705 /* Metropolis-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6DB6F4092A35AD7B009B3705 /* Metropolis-Bold.otf */; };
+		6DB6F40E2A35AD7B009B3705 /* Metropolis-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6DB6F40A2A35AD7B009B3705 /* Metropolis-ExtraBold.otf */; };
+		6DB6F40F2A35AD7B009B3705 /* Metropolis-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6DB6F40B2A35AD7B009B3705 /* Metropolis-SemiBold.otf */; };
+		6DB6F4132A35B893009B3705 /* StandardButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6F4122A35B893009B3705 /* StandardButton.swift */; };
+		6DB6F4152A35C85E009B3705 /* PageIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6F4142A35C85E009B3705 /* PageIndicator.swift */; };
+		6DB6F41B2A35DC6E009B3705 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6F41A2A35DC6E009B3705 /* MockData.swift */; };
+		6DB6F41D2A35DC81009B3705 /* MockData.Walkthrough.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6F41C2A35DC81009B3705 /* MockData.Walkthrough.swift */; };
+		6DB6F41F2A35DD1A009B3705 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6F41E2A35DD1A009B3705 /* HomeView.swift */; };
+		6DB6F4212A35E7C4009B3705 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6F4202A35E7C4009B3705 /* TabBar.swift */; };
+		6DB6F4232A35F33F009B3705 /* StandardHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6F4222A35F33F009B3705 /* StandardHeader.swift */; };
+		6DB6F4252A35F3F9009B3705 /* MockData.Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6F4242A35F3F9009B3705 /* MockData.Story.swift */; };
+		6DB6F42A2A360181009B3705 /* StoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6F4292A360181009B3705 /* StoryItem.swift */; };
+		6DB6F42C2A360221009B3705 /* MockData.SaleCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6F42B2A360221009B3705 /* MockData.SaleCard.swift */; };
+		6DB6F42F2A3606A2009B3705 /* MockData-SaleCard.json in Resources */ = {isa = PBXBuildFile; fileRef = 6DB6F42E2A3606A2009B3705 /* MockData-SaleCard.json */; };
+		6DB6F4312A360CDF009B3705 /* MockData-Walkthrough.json in Resources */ = {isa = PBXBuildFile; fileRef = 6DB6F4302A360CDF009B3705 /* MockData-Walkthrough.json */; };
+		6DB6F4332A361033009B3705 /* MockData-Story.json in Resources */ = {isa = PBXBuildFile; fileRef = 6DB6F4322A361033009B3705 /* MockData-Story.json */; };
+		6DB6F4352A3617FD009B3705 /* SaleCardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6F4342A3617FD009B3705 /* SaleCardItem.swift */; };
+		6DB6F4372A36269D009B3705 /* Separator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6F4362A36269D009B3705 /* Separator.swift */; };
+		6DB6F4392A3626B7009B3705 /* PromoBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6F4382A3626B7009B3705 /* PromoBar.swift */; };
+		6DF8BFBF2A3B93D00009D886 /* ProductTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF8BFBE2A3B93D00009D886 /* ProductTopView.swift */; };
+		6DF8BFC12A3B96220009D886 /* ProductBottomBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF8BFC02A3B96220009D886 /* ProductBottomBar.swift */; };
+		6DF8BFC32A3BA78E0009D886 /* RecommendedProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF8BFC22A3BA78E0009D886 /* RecommendedProductView.swift */; };
+		6DF8BFC52A3BAC8A0009D886 /* DetailsProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF8BFC42A3BAC8A0009D886 /* DetailsProductView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6D037F002A3863D400F40F20 /* StoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryView.swift; sourceTree = "<group>"; };
+		6D037F022A386A5300F40F20 /* StoryTopBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryTopBar.swift; sourceTree = "<group>"; };
+		6D037F042A38741000F40F20 /* StoryBottomBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryBottomBar.swift; sourceTree = "<group>"; };
+		6D037F062A387AF900F40F20 /* ProgressIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressIndicator.swift; sourceTree = "<group>"; };
+		6D037F092A3888E200F40F20 /* Transition+CubeRotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Transition+CubeRotation.swift"; sourceTree = "<group>"; };
+		6D47EB3D2A391979009587C5 /* ProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductView.swift; sourceTree = "<group>"; };
 		6D757D3D2A313C1500E54AC9 /* Navigattie Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Navigattie Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6D757D402A313C1500E54AC9 /* Navigattie_DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigattie_DemoApp.swift; sourceTree = "<group>"; };
-		6D757D422A313C1500E54AC9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6D757D402A313C1500E54AC9 /* Navigattie_Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigattie_Main.swift; sourceTree = "<group>"; };
 		6D757D442A313C1600E54AC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6D757D472A313C1600E54AC9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6DAC3E832A37C5550044FFAE /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		6DAC3E852A37C8FD0044FFAE /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
+		6DAC3E872A37CA980044FFAE /* MockData.CartObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.CartObject.swift; sourceTree = "<group>"; };
+		6DAC3E892A37CCBA0044FFAE /* MockData-CartObject.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "MockData-CartObject.json"; sourceTree = "<group>"; };
+		6DAC3E8B2A37CD400044FFAE /* CartItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItem.swift; sourceTree = "<group>"; };
+		6DAC3E8D2A37D9570044FFAE /* DiscountItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountItem.swift; sourceTree = "<group>"; };
+		6DB6F3F32A35A637009B3705 /* WalkthroughView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughView.swift; sourceTree = "<group>"; };
+		6DB6F3F92A35A781009B3705 /* Font++.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font++.swift"; sourceTree = "<group>"; };
+		6DB6F3FB2A35A785009B3705 /* Color++.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color++.swift"; sourceTree = "<group>"; };
+		6DB6F3FD2A35A7A4009B3705 /* UIScreen++.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScreen++.swift"; sourceTree = "<group>"; };
+		6DB6F3FF2A35A7B2009B3705 /* Spacer++.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Spacer++.swift"; sourceTree = "<group>"; };
+		6DB6F4012A35A7BF009B3705 /* View++.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View++.swift"; sourceTree = "<group>"; };
+		6DB6F4062A35AD69009B3705 /* Metropolis-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-Regular.otf"; sourceTree = "<group>"; };
+		6DB6F4082A35AD7B009B3705 /* Metropolis-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-Medium.otf"; sourceTree = "<group>"; };
+		6DB6F4092A35AD7B009B3705 /* Metropolis-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-Bold.otf"; sourceTree = "<group>"; };
+		6DB6F40A2A35AD7B009B3705 /* Metropolis-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-ExtraBold.otf"; sourceTree = "<group>"; };
+		6DB6F40B2A35AD7B009B3705 /* Metropolis-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-SemiBold.otf"; sourceTree = "<group>"; };
+		6DB6F4102A35ADB8009B3705 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Navigattie Demo/Resources/Assets/Info.plist"; sourceTree = SOURCE_ROOT; };
+		6DB6F4122A35B893009B3705 /* StandardButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardButton.swift; sourceTree = "<group>"; };
+		6DB6F4142A35C85E009B3705 /* PageIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageIndicator.swift; sourceTree = "<group>"; };
+		6DB6F41A2A35DC6E009B3705 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
+		6DB6F41C2A35DC81009B3705 /* MockData.Walkthrough.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.Walkthrough.swift; sourceTree = "<group>"; };
+		6DB6F41E2A35DD1A009B3705 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		6DB6F4202A35E7C4009B3705 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		6DB6F4222A35F33F009B3705 /* StandardHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardHeader.swift; sourceTree = "<group>"; };
+		6DB6F4242A35F3F9009B3705 /* MockData.Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.Story.swift; sourceTree = "<group>"; };
+		6DB6F4292A360181009B3705 /* StoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryItem.swift; sourceTree = "<group>"; };
+		6DB6F42B2A360221009B3705 /* MockData.SaleCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.SaleCard.swift; sourceTree = "<group>"; };
+		6DB6F42E2A3606A2009B3705 /* MockData-SaleCard.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "MockData-SaleCard.json"; sourceTree = "<group>"; };
+		6DB6F4302A360CDF009B3705 /* MockData-Walkthrough.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "MockData-Walkthrough.json"; sourceTree = "<group>"; };
+		6DB6F4322A361033009B3705 /* MockData-Story.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "MockData-Story.json"; sourceTree = "<group>"; };
+		6DB6F4342A3617FD009B3705 /* SaleCardItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaleCardItem.swift; sourceTree = "<group>"; };
+		6DB6F4362A36269D009B3705 /* Separator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Separator.swift; sourceTree = "<group>"; };
+		6DB6F4382A3626B7009B3705 /* PromoBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoBar.swift; sourceTree = "<group>"; };
+		6DD510082A3B2E2400BC9FAB /* Navigattie */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Navigattie; sourceTree = "<group>"; };
+		6DF8BFBE2A3B93D00009D886 /* ProductTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTopView.swift; sourceTree = "<group>"; };
+		6DF8BFC02A3B96220009D886 /* ProductBottomBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductBottomBar.swift; sourceTree = "<group>"; };
+		6DF8BFC22A3BA78E0009D886 /* RecommendedProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedProductView.swift; sourceTree = "<group>"; };
+		6DF8BFC42A3BAC8A0009D886 /* DetailsProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsProductView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,16 +111,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DB6F3F72A35A661009B3705 /* Navigattie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6D037F082A3888C300F40F20 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				6D037F092A3888E200F40F20 /* Transition+CubeRotation.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
 		6D757D342A313C1400E54AC9 = {
 			isa = PBXGroup;
 			children = (
 				6D757D3F2A313C1500E54AC9 /* Navigattie Demo */,
+				6DD510082A3B2E2400BC9FAB /* Navigattie */,
 				6D757D3E2A313C1500E54AC9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,20 +146,150 @@
 		6D757D3F2A313C1500E54AC9 /* Navigattie Demo */ = {
 			isa = PBXGroup;
 			children = (
-				6D757D402A313C1500E54AC9 /* Navigattie_DemoApp.swift */,
-				6D757D422A313C1500E54AC9 /* ContentView.swift */,
-				6D757D442A313C1600E54AC9 /* Assets.xcassets */,
-				6D757D462A313C1600E54AC9 /* Preview Content */,
+				6D757D402A313C1500E54AC9 /* Navigattie_Main.swift */,
+				6DB6F4172A35D947009B3705 /* Source */,
+				6DB6F4182A35D957009B3705 /* Resources */,
 			);
 			path = "Navigattie Demo";
 			sourceTree = "<group>";
 		};
-		6D757D462A313C1600E54AC9 /* Preview Content */ = {
+		6DB6F3EC2A35A5BB009B3705 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				6D757D472A313C1600E54AC9 /* Preview Assets.xcassets */,
+				6DB6F3F32A35A637009B3705 /* WalkthroughView.swift */,
+				6DB6F41E2A35DD1A009B3705 /* HomeView.swift */,
+				6DAC3E832A37C5550044FFAE /* CartView.swift */,
+				6D037F002A3863D400F40F20 /* StoryView.swift */,
+				6D47EB3D2A391979009587C5 /* ProductView.swift */,
 			);
-			path = "Preview Content";
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6DB6F3ED2A35A5BF009B3705 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6DB6F4032A35A7CF009B3705 /* Assets */,
+				6DB6F4042A35A7E7009B3705 /* Views */,
+				6DB6F4052A35A7FA009B3705 /* Others */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6DB6F3EE2A35A5CA009B3705 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				6D757D442A313C1600E54AC9 /* Assets.xcassets */,
+				6DB6F4102A35ADB8009B3705 /* Info.plist */,
+				6DB6F3F82A35A6FA009B3705 /* Fonts */,
+				6DB6F42D2A3604F2009B3705 /* Mock Data */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		6DB6F3F82A35A6FA009B3705 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				6DB6F4062A35AD69009B3705 /* Metropolis-Regular.otf */,
+				6DB6F4082A35AD7B009B3705 /* Metropolis-Medium.otf */,
+				6DB6F40B2A35AD7B009B3705 /* Metropolis-SemiBold.otf */,
+				6DB6F4092A35AD7B009B3705 /* Metropolis-Bold.otf */,
+				6DB6F40A2A35AD7B009B3705 /* Metropolis-ExtraBold.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		6DB6F4032A35A7CF009B3705 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				6DB6F3F92A35A781009B3705 /* Font++.swift */,
+				6DB6F3FB2A35A785009B3705 /* Color++.swift */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		6DB6F4042A35A7E7009B3705 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6DB6F4012A35A7BF009B3705 /* View++.swift */,
+				6DB6F3FF2A35A7B2009B3705 /* Spacer++.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6DB6F4052A35A7FA009B3705 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				6DB6F3FD2A35A7A4009B3705 /* UIScreen++.swift */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		6DB6F4112A35B884009B3705 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				6DB6F4122A35B893009B3705 /* StandardButton.swift */,
+				6DB6F4222A35F33F009B3705 /* StandardHeader.swift */,
+				6DB6F4142A35C85E009B3705 /* PageIndicator.swift */,
+				6D037F062A387AF900F40F20 /* ProgressIndicator.swift */,
+				6DB6F4382A3626B7009B3705 /* PromoBar.swift */,
+				6D037F022A386A5300F40F20 /* StoryTopBar.swift */,
+				6DF8BFBE2A3B93D00009D886 /* ProductTopView.swift */,
+				6DAC3E852A37C8FD0044FFAE /* NavigationBar.swift */,
+				6DB6F4202A35E7C4009B3705 /* TabBar.swift */,
+				6D037F042A38741000F40F20 /* StoryBottomBar.swift */,
+				6DF8BFC02A3B96220009D886 /* ProductBottomBar.swift */,
+				6DB6F4292A360181009B3705 /* StoryItem.swift */,
+				6DB6F4342A3617FD009B3705 /* SaleCardItem.swift */,
+				6DAC3E8B2A37CD400044FFAE /* CartItem.swift */,
+				6DAC3E8D2A37D9570044FFAE /* DiscountItem.swift */,
+				6DF8BFC42A3BAC8A0009D886 /* DetailsProductView.swift */,
+				6DF8BFC22A3BA78E0009D886 /* RecommendedProductView.swift */,
+				6DB6F4362A36269D009B3705 /* Separator.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		6DB6F4162A35D93E009B3705 /* Mock Data */ = {
+			isa = PBXGroup;
+			children = (
+				6DB6F41A2A35DC6E009B3705 /* MockData.swift */,
+				6DB6F41C2A35DC81009B3705 /* MockData.Walkthrough.swift */,
+				6DB6F4242A35F3F9009B3705 /* MockData.Story.swift */,
+				6DB6F42B2A360221009B3705 /* MockData.SaleCard.swift */,
+				6DAC3E872A37CA980044FFAE /* MockData.CartObject.swift */,
+			);
+			path = "Mock Data";
+			sourceTree = "<group>";
+		};
+		6DB6F4172A35D947009B3705 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				6DB6F3EC2A35A5BB009B3705 /* Views */,
+				6DB6F4162A35D93E009B3705 /* Mock Data */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		6DB6F4182A35D957009B3705 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6DB6F4112A35B884009B3705 /* Components */,
+				6D037F082A3888C300F40F20 /* Modifiers */,
+				6DB6F3ED2A35A5BF009B3705 /* Extensions */,
+				6DB6F3EE2A35A5CA009B3705 /* Assets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6DB6F42D2A3604F2009B3705 /* Mock Data */ = {
+			isa = PBXGroup;
+			children = (
+				6DB6F4302A360CDF009B3705 /* MockData-Walkthrough.json */,
+				6DB6F4322A361033009B3705 /* MockData-Story.json */,
+				6DB6F42E2A3606A2009B3705 /* MockData-SaleCard.json */,
+				6DAC3E892A37CCBA0044FFAE /* MockData-CartObject.json */,
+			);
+			path = "Mock Data";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +308,9 @@
 			dependencies = (
 			);
 			name = "Navigattie Demo";
+			packageProductDependencies = (
+				6DB6F3F62A35A661009B3705 /* Navigattie */,
+			);
 			productName = "Navigattie Demo";
 			productReference = 6D757D3D2A313C1500E54AC9 /* Navigattie Demo.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +339,9 @@
 				Base,
 			);
 			mainGroup = 6D757D342A313C1400E54AC9;
+			packageReferences = (
+				6DB6F3F52A35A661009B3705 /* XCRemoteSwiftPackageReference "Navigattie" */,
+			);
 			productRefGroup = 6D757D3E2A313C1500E54AC9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,7 +356,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D757D482A313C1600E54AC9 /* Preview Assets.xcassets in Resources */,
+				6DB6F4072A35AD69009B3705 /* Metropolis-Regular.otf in Resources */,
+				6DB6F42F2A3606A2009B3705 /* MockData-SaleCard.json in Resources */,
+				6DAC3E8A2A37CCBA0044FFAE /* MockData-CartObject.json in Resources */,
+				6DB6F4312A360CDF009B3705 /* MockData-Walkthrough.json in Resources */,
+				6DB6F40C2A35AD7B009B3705 /* Metropolis-Medium.otf in Resources */,
+				6DB6F40E2A35AD7B009B3705 /* Metropolis-ExtraBold.otf in Resources */,
+				6DB6F40D2A35AD7B009B3705 /* Metropolis-Bold.otf in Resources */,
+				6DB6F4332A361033009B3705 /* MockData-Story.json in Resources */,
+				6DB6F40F2A35AD7B009B3705 /* Metropolis-SemiBold.otf in Resources */,
 				6D757D452A313C1600E54AC9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +376,41 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D757D432A313C1500E54AC9 /* ContentView.swift in Sources */,
-				6D757D412A313C1500E54AC9 /* Navigattie_DemoApp.swift in Sources */,
+				6DB6F4372A36269D009B3705 /* Separator.swift in Sources */,
+				6DB6F42A2A360181009B3705 /* StoryItem.swift in Sources */,
+				6DF8BFC32A3BA78E0009D886 /* RecommendedProductView.swift in Sources */,
+				6DB6F41D2A35DC81009B3705 /* MockData.Walkthrough.swift in Sources */,
+				6DB6F4232A35F33F009B3705 /* StandardHeader.swift in Sources */,
+				6DB6F42C2A360221009B3705 /* MockData.SaleCard.swift in Sources */,
+				6DAC3E862A37C8FD0044FFAE /* NavigationBar.swift in Sources */,
+				6DAC3E8E2A37D9570044FFAE /* DiscountItem.swift in Sources */,
+				6D037F072A387AF900F40F20 /* ProgressIndicator.swift in Sources */,
+				6DAC3E882A37CA980044FFAE /* MockData.CartObject.swift in Sources */,
+				6DB6F3FE2A35A7A4009B3705 /* UIScreen++.swift in Sources */,
+				6DB6F4352A3617FD009B3705 /* SaleCardItem.swift in Sources */,
+				6D037F0A2A3888E200F40F20 /* Transition+CubeRotation.swift in Sources */,
+				6D037F052A38741000F40F20 /* StoryBottomBar.swift in Sources */,
+				6DB6F4002A35A7B2009B3705 /* Spacer++.swift in Sources */,
+				6DAC3E8C2A37CD400044FFAE /* CartItem.swift in Sources */,
+				6D757D412A313C1500E54AC9 /* Navigattie_Main.swift in Sources */,
+				6DB6F3FC2A35A785009B3705 /* Color++.swift in Sources */,
+				6D037F032A386A5300F40F20 /* StoryTopBar.swift in Sources */,
+				6DB6F4132A35B893009B3705 /* StandardButton.swift in Sources */,
+				6DF8BFC12A3B96220009D886 /* ProductBottomBar.swift in Sources */,
+				6DB6F3F42A35A637009B3705 /* WalkthroughView.swift in Sources */,
+				6DB6F3FA2A35A781009B3705 /* Font++.swift in Sources */,
+				6D47EB3E2A391979009587C5 /* ProductView.swift in Sources */,
+				6DB6F4152A35C85E009B3705 /* PageIndicator.swift in Sources */,
+				6DB6F4212A35E7C4009B3705 /* TabBar.swift in Sources */,
+				6DAC3E842A37C5550044FFAE /* CartView.swift in Sources */,
+				6DB6F4392A3626B7009B3705 /* PromoBar.swift in Sources */,
+				6DB6F41F2A35DD1A009B3705 /* HomeView.swift in Sources */,
+				6D037F012A3863D400F40F20 /* StoryView.swift in Sources */,
+				6DB6F4022A35A7BF009B3705 /* View++.swift in Sources */,
+				6DB6F41B2A35DC6E009B3705 /* MockData.swift in Sources */,
+				6DF8BFBF2A3B93D00009D886 /* ProductTopView.swift in Sources */,
+				6DF8BFC52A3BAC8A0009D886 /* DetailsProductView.swift in Sources */,
+				6DB6F4252A35F3F9009B3705 /* MockData.Story.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,18 +535,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Navigattie Demo/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 78L5993673;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Navigattie Demo/Resources/Assets/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -282,9 +556,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mijick.Navigattie-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -292,18 +569,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Navigattie Demo/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 78L5993673;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Navigattie Demo/Resources/Assets/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,9 +590,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mijick.Navigattie-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -339,6 +621,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6DB6F3F52A35A661009B3705 /* XCRemoteSwiftPackageReference "Navigattie" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Mijick/Navigattie";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6DB6F3F62A35A661009B3705 /* Navigattie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6DB6F3F52A35A661009B3705 /* XCRemoteSwiftPackageReference "Navigattie" */;
+			productName = Navigattie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6D757D352A313C1400E54AC9 /* Project object */;
 }

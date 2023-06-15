@@ -1,0 +1,112 @@
+[
+    {
+        "creationDate": "2022-03-01T10:15:30Z",
+        "image": "placeholder-sale-card-1",
+        "title": "Whimsical Adventures",
+        "description": "Embark on a whimsical journey filled with magical creatures, fantastical landscapes, and enchanting quests. Let your imagination soar as you explore hidden realms, encounter mythical beings, and unlock the secrets of the unknown. Get ready for an unforgettable adventure!",
+        "author": "Oliver Dawson",
+        "price": 12.99,
+        "numberOfBuys": 523,
+        "rating": 4.7,
+        "numberOfRatings": 89
+    },
+    {
+        "creationDate": "2022-04-05T14:30:45Z",
+        "image": "placeholder-sale-card-2",
+        "title": "Laugh Out Loud",
+        "description": "Get ready to laugh out loud with this hilarious collection of comedic brilliance. From witty one-liners to uproarious sketches, these comedy gems will tickle your funny bone and leave you in stitches. Prepare for a barrel of laughs!",
+        "author": "Sophia Cooper",
+        "price": 9.99,
+        "numberOfBuys": 356,
+        "rating": 4.5,
+        "numberOfRatings": 65
+    },
+    {
+        "creationDate": "2022-05-10T18:45:15Z",
+        "image": "placeholder-sale-card-3",
+        "title": "Nature's Serenade",
+        "description": "Immerse yourself in the serene beauty of nature with this captivating collection. From breathtaking landscapes to delicate flora and fauna, these images will transport you to a world of tranquility and awe. Let the symphony of nature serenade your soul.",
+        "author": "Maxine Woods",
+        "price": 14.99,
+        "numberOfBuys": 278,
+        "rating": 4.8,
+        "numberOfRatings": 73
+    },
+    {
+        "creationDate": "2022-06-15T08:20:10Z",
+        "image": "placeholder-sale-card-4",
+        "title": "Magical Moments",
+        "description": "Step into a world of magic and wonder with this enchanting collection. From spellbinding illusions to mystical creatures, each image will transport you to a realm where dreams come true. Experience the wonder and let your imagination soar!",
+        "author": "Leo Johnson",
+        "price": 19.99,
+        "numberOfBuys": 415,
+        "rating": 4.6,
+        "numberOfRatings": 92
+    },
+    {
+        "creationDate": "2022-07-20T12:10:25Z",
+        "image": "placeholder-sale-card-5",
+        "title": "Thrill Seeker's Paradise",
+        "description": "Get your adrenaline pumping with this thrilling collection of adventures. From extreme sports to daring expeditions, these heart-stopping moments will satisfy your thirst for excitement. Brace yourself for the ultimate thrill seeker's paradise!",
+        "author": "Ella Clark",
+        "price": 16.99,
+        "numberOfBuys": 318,
+        "rating": 4.9,
+        "numberOfRatings": 107
+    },
+    {
+        "creationDate": "2022-08-25T16:55:55Z",
+        "image": "placeholder-sale-card-6",
+        "title": "Culinary Delights",
+        "description": "Indulge in a culinary journey with this delectable collection of gastronomic delights. From mouthwatering dishes to irresistible desserts, these tantalizing images will awaken your taste buds and ignite your passion for food. Bon appétit!",
+        "author": "William Hughes",
+        "price": 24.99,
+        "numberOfBuys": 621,
+        "rating": 4.7,
+        "numberOfRatings": 136
+    },
+    {
+        "creationDate": "2022-09-30T20:40:30Z",
+        "image": "placeholder-sale-card-7",
+        "title": "Animal Kingdom",
+        "description": "Explore the wonders of the animal kingdom with this captivating collection. From majestic predators to adorable creatures, these images capture the beauty and diversity of wildlife. Immerse yourself in the fascinating world of animals!",
+        "author": "Ava Richardson",
+        "price": 11.99,
+        "numberOfBuys": 436,
+        "rating": 4.6,
+        "numberOfRatings": 83
+    },
+    {
+        "creationDate": "2022-11-05T09:25:20Z",
+        "image": "placeholder-sale-card-8",
+        "title": "Inspiration Unleashed",
+        "description": "Unleash your inner creativity and find inspiration in this captivating collection. From breathtaking art to thought-provoking quotes, these images will ignite your passion and motivate you to reach new heights. Let inspiration guide your journey!",
+        "author": "Noah Foster",
+        "price": 10.99,
+        "numberOfBuys": 299,
+        "rating": 4.5,
+        "numberOfRatings": 71
+    },
+    {
+        "creationDate": "2022-12-10T14:35:10Z",
+        "image": "placeholder-sale-card-9",
+        "title": "Mindful Moments",
+        "description": "Find peace and tranquility in the present moment with this collection of mindful images. From serene landscapes to peaceful meditations, these visuals will help you embrace mindfulness and reconnect with your inner self. Discover the power of the present!",
+        "author": "Mia Roberts",
+        "price": 13.99,
+        "numberOfBuys": 365,
+        "rating": 4.8,
+        "numberOfRatings": 98
+    },
+    {
+        "creationDate": "2023-01-15T17:50:50Z",
+        "image": "placeholder-sale-card-10",
+        "title": "Uncharted Territories",
+        "description": "Embark on a journey to uncharted territories with this captivating collection. From hidden gems to remote landscapes, these images will transport you to the unknown and ignite your sense of adventure. Discover the beauty of the unexplored!",
+        "author": "Liam Turner",
+        "price": 17.99,
+        "numberOfBuys": 521,
+        "rating": 4.7,
+        "numberOfRatings": 112
+    }
+]
