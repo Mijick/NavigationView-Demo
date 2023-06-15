@@ -52,6 +52,7 @@
 		6DF8BFBF2A3B93D00009D886 /* ProductTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF8BFBE2A3B93D00009D886 /* ProductTopView.swift */; };
 		6DF8BFC12A3B96220009D886 /* ProductBottomBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF8BFC02A3B96220009D886 /* ProductBottomBar.swift */; };
 		6DF8BFC32A3BA78E0009D886 /* RecommendedProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF8BFC22A3BA78E0009D886 /* RecommendedProductView.swift */; };
+		6DF8BFC52A3BAC8A0009D886 /* DetailsProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF8BFC42A3BAC8A0009D886 /* DetailsProductView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -102,6 +103,7 @@
 		6DF8BFBE2A3B93D00009D886 /* ProductTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTopView.swift; sourceTree = "<group>"; };
 		6DF8BFC02A3B96220009D886 /* ProductBottomBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductBottomBar.swift; sourceTree = "<group>"; };
 		6DF8BFC22A3BA78E0009D886 /* RecommendedProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedProductView.swift; sourceTree = "<group>"; };
+		6DF8BFC42A3BAC8A0009D886 /* DetailsProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsProductView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -240,6 +242,7 @@
 				6DB6F4342A3617FD009B3705 /* SaleCardItem.swift */,
 				6DAC3E8B2A37CD400044FFAE /* CartItem.swift */,
 				6DAC3E8D2A37D9570044FFAE /* DiscountItem.swift */,
+				6DF8BFC42A3BAC8A0009D886 /* DetailsProductView.swift */,
 				6DF8BFC22A3BA78E0009D886 /* RecommendedProductView.swift */,
 				6DB6F4362A36269D009B3705 /* Separator.swift */,
 			);
@@ -406,6 +409,7 @@
 				6DB6F4022A35A7BF009B3705 /* View++.swift in Sources */,
 				6DB6F41B2A35DC6E009B3705 /* MockData.swift in Sources */,
 				6DF8BFBF2A3B93D00009D886 /* ProductTopView.swift in Sources */,
+				6DF8BFC52A3BAC8A0009D886 /* DetailsProductView.swift in Sources */,
 				6DB6F4252A35F3F9009B3705 /* MockData.Story.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

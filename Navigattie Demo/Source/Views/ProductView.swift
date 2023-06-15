@@ -69,7 +69,7 @@ private extension ProductView {
             .foregroundColor(.onBackgroundPrimary)
     }
     func createDetailsView() -> some View {
-        EmptyView()
+        DetailsProductView(product: product)
     }
     func createDescription() -> some View {
         Text(product.description)
@@ -82,29 +82,3 @@ private extension ProductView {
         RecommendedProductView()
     }
 }
-
-private extension ProductView {
-
-}
-
-private extension ProductView {
-
-}
-
-private extension ProductView {
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
