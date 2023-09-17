@@ -99,7 +99,7 @@
 		6DB6F4342A3617FD009B3705 /* SaleCardItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaleCardItem.swift; sourceTree = "<group>"; };
 		6DB6F4362A36269D009B3705 /* Separator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Separator.swift; sourceTree = "<group>"; };
 		6DB6F4382A3626B7009B3705 /* PromoBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoBar.swift; sourceTree = "<group>"; };
-		6DD510082A3B2E2400BC9FAB /* Navigattie */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Navigattie; sourceTree = "<group>"; };
+		6DC6A2642AB7445A006B58E6 /* Navigattie */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Navigattie; path = ../Navigattie; sourceTree = "<group>"; };
 		6DF8BFBE2A3B93D00009D886 /* ProductTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTopView.swift; sourceTree = "<group>"; };
 		6DF8BFC02A3B96220009D886 /* ProductBottomBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductBottomBar.swift; sourceTree = "<group>"; };
 		6DF8BFC22A3BA78E0009D886 /* RecommendedProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedProductView.swift; sourceTree = "<group>"; };
@@ -130,7 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				6D757D3F2A313C1500E54AC9 /* Navigattie Demo */,
-				6DD510082A3B2E2400BC9FAB /* Navigattie */,
+				6DC6A2642AB7445A006B58E6 /* Navigattie */,
 				6D757D3E2A313C1500E54AC9 /* Products */,
 			);
 			sourceTree = "<group>";
