@@ -9,7 +9,7 @@
 
 
 import SwiftUI
-import Navigattie
+import MijickNavigattie
 
 @main struct Navigattie_Main: App {
     var body: some Scene { WindowGroup {

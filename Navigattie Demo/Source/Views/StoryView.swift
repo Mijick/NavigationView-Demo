@@ -9,7 +9,7 @@
 
 
 import SwiftUI
-import Navigattie
+import MijickNavigattie
 
 struct StoryView: NavigatableView {
     let story: MockData.Story

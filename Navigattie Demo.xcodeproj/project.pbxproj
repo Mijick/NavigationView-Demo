@@ -22,7 +22,6 @@
 		6DAC3E8C2A37CD400044FFAE /* CartItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAC3E8B2A37CD400044FFAE /* CartItem.swift */; };
 		6DAC3E8E2A37D9570044FFAE /* DiscountItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAC3E8D2A37D9570044FFAE /* DiscountItem.swift */; };
 		6DB6F3F42A35A637009B3705 /* WalkthroughView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6F3F32A35A637009B3705 /* WalkthroughView.swift */; };
-		6DB6F3F72A35A661009B3705 /* Navigattie in Frameworks */ = {isa = PBXBuildFile; productRef = 6DB6F3F62A35A661009B3705 /* Navigattie */; };
 		6DB6F3FA2A35A781009B3705 /* Font++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6F3F92A35A781009B3705 /* Font++.swift */; };
 		6DB6F3FC2A35A785009B3705 /* Color++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6F3FB2A35A785009B3705 /* Color++.swift */; };
 		6DB6F3FE2A35A7A4009B3705 /* UIScreen++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6F3FD2A35A7A4009B3705 /* UIScreen++.swift */; };
@@ -49,6 +48,7 @@
 		6DB6F4352A3617FD009B3705 /* SaleCardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6F4342A3617FD009B3705 /* SaleCardItem.swift */; };
 		6DB6F4372A36269D009B3705 /* Separator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6F4362A36269D009B3705 /* Separator.swift */; };
 		6DB6F4392A3626B7009B3705 /* PromoBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6F4382A3626B7009B3705 /* PromoBar.swift */; };
+		6DC6A2672AB7AA86006B58E6 /* MijickNavigattie in Frameworks */ = {isa = PBXBuildFile; productRef = 6DC6A2662AB7AA86006B58E6 /* MijickNavigattie */; };
 		6DF8BFBF2A3B93D00009D886 /* ProductTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF8BFBE2A3B93D00009D886 /* ProductTopView.swift */; };
 		6DF8BFC12A3B96220009D886 /* ProductBottomBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF8BFC02A3B96220009D886 /* ProductBottomBar.swift */; };
 		6DF8BFC32A3BA78E0009D886 /* RecommendedProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF8BFC22A3BA78E0009D886 /* RecommendedProductView.swift */; };
@@ -111,7 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DB6F3F72A35A661009B3705 /* Navigattie in Frameworks */,
+				6DC6A2672AB7AA86006B58E6 /* MijickNavigattie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +132,7 @@
 				6D757D3F2A313C1500E54AC9 /* Navigattie Demo */,
 				6DC6A2642AB7445A006B58E6 /* Navigattie */,
 				6D757D3E2A313C1500E54AC9 /* Products */,
+				6DC6A2652AB7AA86006B58E6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -292,6 +293,13 @@
 			path = "Mock Data";
 			sourceTree = "<group>";
 		};
+		6DC6A2652AB7AA86006B58E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -309,7 +317,7 @@
 			);
 			name = "Navigattie Demo";
 			packageProductDependencies = (
-				6DB6F3F62A35A661009B3705 /* Navigattie */,
+				6DC6A2662AB7AA86006B58E6 /* MijickNavigattie */,
 			);
 			productName = "Navigattie Demo";
 			productReference = 6D757D3D2A313C1500E54AC9 /* Navigattie Demo.app */;
@@ -634,10 +642,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		6DB6F3F62A35A661009B3705 /* Navigattie */ = {
+		6DC6A2662AB7AA86006B58E6 /* MijickNavigattie */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 6DB6F3F52A35A661009B3705 /* XCRemoteSwiftPackageReference "Navigattie" */;
-			productName = Navigattie;
+			productName = MijickNavigattie;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

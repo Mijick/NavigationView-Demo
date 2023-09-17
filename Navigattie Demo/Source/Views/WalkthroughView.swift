@@ -9,7 +9,7 @@
 
 
 import SwiftUI
-import Navigattie
+import MijickNavigattie
 
 struct WalkthroughView: NavigatableView {
     @State private var pageIndex: Int = 0
