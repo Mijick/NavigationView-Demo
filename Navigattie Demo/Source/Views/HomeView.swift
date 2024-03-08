@@ -9,7 +9,7 @@
 
 
 import SwiftUI
-import Navigattie
+import MijickNavigattie
 
 struct HomeView: NavigatableView {
     private let stories = MockData.Story.generate()

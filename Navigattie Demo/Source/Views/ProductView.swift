@@ -9,7 +9,7 @@
 
 
 import SwiftUI
-import Navigattie
+import MijickNavigattie
 
 struct ProductView: NavigatableView {
     let product: MockData.SaleCard

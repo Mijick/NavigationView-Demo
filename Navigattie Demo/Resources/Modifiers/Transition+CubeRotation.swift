@@ -30,23 +30,29 @@ fileprivate struct Modifier: AnimatableModifier {
     func body(content: Content) -> some View {
         GeometryReader { geo in
             content
-                .rotation3DEffect(Angle(degrees: calcRotation()), axis: (x: 0, y: 1, z: 0), anchor: direction == .enter ? .leading : .trailing, anchorZ: 0, perspective: 0.1)
+                .rotation3DEffect(Angle(degrees: calcRotation()), axis: (x: 0, y: 1, z: 0), anchor: calcAnchor(), anchorZ: 0, perspective: 0.33)
                 .transformEffect(.init(translationX: calcTranslation(geo: geo), y: 0))
         }
     }
 }
 
 private extension Modifier {
-    func calcTranslation(geo: GeometryProxy) -> CGFloat {
-        switch direction {
-            case .enter: return geo.size.width - (CGFloat(progress) * geo.size.width)
-            case .exit: return -1 * (CGFloat(progress) * geo.size.width)
-        }
-    }
     func calcRotation() -> Double {
         switch direction {
             case .enter: return 90 - (progress * 90)
             case .exit: return -1 * (progress * 90)
+        }
+    }
+    func calcAnchor() -> UnitPoint {
+        switch direction {
+            case .enter: return .leading
+            case .exit: return .trailing
+        }
+    }
+    func calcTranslation(geo: GeometryProxy) -> CGFloat {
+        switch direction {
+            case .enter: return geo.size.width - (CGFloat(progress) * geo.size.width)
+            case .exit: return -1 * (CGFloat(progress) * geo.size.width)
         }
     }
 }

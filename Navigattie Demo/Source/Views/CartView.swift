@@ -9,7 +9,7 @@
 
 
 import SwiftUI
-import Navigattie
+import MijickNavigattie
 
 struct CartView: NavigatableView {
     let items = MockData.CartObject.generate()
