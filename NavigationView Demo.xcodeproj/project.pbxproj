@@ -48,6 +48,7 @@
 		6DB6F4352A3617FD009B3705 /* SaleCardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6F4342A3617FD009B3705 /* SaleCardItem.swift */; };
 		6DB6F4372A36269D009B3705 /* Separator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6F4362A36269D009B3705 /* Separator.swift */; };
 		6DB6F4392A3626B7009B3705 /* PromoBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB6F4382A3626B7009B3705 /* PromoBar.swift */; };
+		6DCDD6A72BFC0F8D0046EADF /* MijickNavigationView in Frameworks */ = {isa = PBXBuildFile; productRef = 6DCDD6A62BFC0F8D0046EADF /* MijickNavigationView */; };
 		6DF170B42BFBC9570077D5F2 /* MijickNavigationView in Frameworks */ = {isa = PBXBuildFile; productRef = 6DF170B32BFBC9570077D5F2 /* MijickNavigationView */; };
 		6DF8BFBF2A3B93D00009D886 /* ProductTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF8BFBE2A3B93D00009D886 /* ProductTopView.swift */; };
 		6DF8BFC12A3B96220009D886 /* ProductBottomBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF8BFC02A3B96220009D886 /* ProductBottomBar.swift */; };
@@ -99,7 +100,7 @@
 		6DB6F4342A3617FD009B3705 /* SaleCardItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaleCardItem.swift; sourceTree = "<group>"; };
 		6DB6F4362A36269D009B3705 /* Separator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Separator.swift; sourceTree = "<group>"; };
 		6DB6F4382A3626B7009B3705 /* PromoBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromoBar.swift; sourceTree = "<group>"; };
-		6DC6A2642AB7445A006B58E6 /* Navigattie */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Navigattie; path = ../Navigattie; sourceTree = "<group>"; };
+		6DCDD6A82BFC0F920046EADF /* NavigationView */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = NavigationView; path = ../NavigationView; sourceTree = "<group>"; };
 		6DF8BFBE2A3B93D00009D886 /* ProductTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTopView.swift; sourceTree = "<group>"; };
 		6DF8BFC02A3B96220009D886 /* ProductBottomBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductBottomBar.swift; sourceTree = "<group>"; };
 		6DF8BFC22A3BA78E0009D886 /* RecommendedProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedProductView.swift; sourceTree = "<group>"; };
@@ -111,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DCDD6A72BFC0F8D0046EADF /* MijickNavigationView in Frameworks */,
 				6DF170B42BFBC9570077D5F2 /* MijickNavigationView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -130,7 +132,6 @@
 			isa = PBXGroup;
 			children = (
 				6D757D3F2A313C1500E54AC9 /* NavigationView Demo */,
-				6DC6A2642AB7445A006B58E6 /* Navigattie */,
 				6D757D3E2A313C1500E54AC9 /* Products */,
 				6DC6A2652AB7AA86006B58E6 /* Frameworks */,
 			);
@@ -296,6 +297,7 @@
 		6DC6A2652AB7AA86006B58E6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6DCDD6A82BFC0F920046EADF /* NavigationView */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -318,6 +320,7 @@
 			name = "NavigationView Demo";
 			packageProductDependencies = (
 				6DF170B32BFBC9570077D5F2 /* MijickNavigationView */,
+				6DCDD6A62BFC0F8D0046EADF /* MijickNavigationView */,
 			);
 			productName = "Navigattie Demo";
 			productReference = 6D757D3D2A313C1500E54AC9 /* NavigationView Demo.app */;
@@ -348,7 +351,7 @@
 			);
 			mainGroup = 6D757D342A313C1400E54AC9;
 			packageReferences = (
-				6DB6F3F52A35A661009B3705 /* XCRemoteSwiftPackageReference "Navigattie" */,
+				6DCDD6A52BFC0F8D0046EADF /* XCRemoteSwiftPackageReference "NavigationView" */,
 			);
 			productRefGroup = 6D757D3E2A313C1500E54AC9 /* Products */;
 			projectDirPath = "";
@@ -633,9 +636,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		6DB6F3F52A35A661009B3705 /* XCRemoteSwiftPackageReference "Navigattie" */ = {
+		6DCDD6A52BFC0F8D0046EADF /* XCRemoteSwiftPackageReference "NavigationView" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Mijick/Navigattie";
+			repositoryURL = "https://github.com/Mijick/NavigationView";
 			requirement = {
 				branch = main;
 				kind = branch;
@@ -644,6 +647,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		6DCDD6A62BFC0F8D0046EADF /* MijickNavigationView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6DCDD6A52BFC0F8D0046EADF /* XCRemoteSwiftPackageReference "NavigationView" */;
+			productName = MijickNavigationView;
+		};
 		6DF170B32BFBC9570077D5F2 /* MijickNavigationView */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = MijickNavigationView;
