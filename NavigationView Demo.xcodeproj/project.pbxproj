@@ -82,7 +82,7 @@
 		6DB6F4092A35AD7B009B3705 /* Metropolis-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-Bold.otf"; sourceTree = "<group>"; };
 		6DB6F40A2A35AD7B009B3705 /* Metropolis-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-ExtraBold.otf"; sourceTree = "<group>"; };
 		6DB6F40B2A35AD7B009B3705 /* Metropolis-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-SemiBold.otf"; sourceTree = "<group>"; };
-		6DB6F4102A35ADB8009B3705 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Navigattie Demo/Resources/Assets/Info.plist"; sourceTree = SOURCE_ROOT; };
+		6DB6F4102A35ADB8009B3705 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "NavigationView Demo/Resources/Assets/Info.plist"; sourceTree = SOURCE_ROOT; };
 		6DB6F4122A35B893009B3705 /* StandardButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardButton.swift; sourceTree = "<group>"; };
 		6DB6F4142A35C85E009B3705 /* PageIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageIndicator.swift; sourceTree = "<group>"; };
 		6DB6F41A2A35DC6E009B3705 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
@@ -550,7 +550,7 @@
 				DEVELOPMENT_TEAM = 78L5993673;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Navigattie Demo/Resources/Assets/Info.plist";
+				INFOPLIST_FILE = "NavigationView Demo/Resources/Assets/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -585,7 +585,7 @@
 				DEVELOPMENT_TEAM = 78L5993673;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Navigattie Demo/Resources/Assets/Info.plist";
+				INFOPLIST_FILE = "NavigationView Demo/Resources/Assets/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

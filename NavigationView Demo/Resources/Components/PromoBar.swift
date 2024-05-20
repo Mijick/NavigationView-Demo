@@ -40,7 +40,7 @@ private extension PromoBar {
 
 private extension PromoBar {
     func createLogo() -> some View {
-        Image("mc-navigattie-logo")
+        Image(.mcNavigationViewLogo)
     }
     func createOpenGithubButton() -> some View {
         Button(action: onVisitGithubButtonTap) {
