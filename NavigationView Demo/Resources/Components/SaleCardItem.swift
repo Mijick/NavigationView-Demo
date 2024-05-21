@@ -76,6 +76,6 @@ private extension SaleCardItem {
 
 private extension SaleCardItem {
     func onItemTap() {
-        ProductView(product: data).push(with: .scale)
+        ProductView(product: data).push(with: .cubeRotation)
     }
 }

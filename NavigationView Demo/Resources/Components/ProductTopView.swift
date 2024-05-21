@@ -41,7 +41,7 @@ private extension ProductTopView {
             Spacer.width(20)
             createMoreButton()
         }
-        .alignVertically(.top, UIScreen.safeArea.top + 16)
+        .alignVertically(.top, UIScreen.safeArea.top + 8)
         .padding(.horizontal, .margin)
     }
     func createBottomButton() -> some View {
