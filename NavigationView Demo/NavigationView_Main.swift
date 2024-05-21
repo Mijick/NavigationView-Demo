@@ -20,7 +20,7 @@ import MijickNavigationView
 }
 private extension NavigationView_Main {
     var navigationConfig: NavigationGlobalConfig {
-        let config = NavigationGlobalConfig()
+        var config = NavigationGlobalConfig()
         config.backgroundColour = .backgroundPrimary
         return config
     }
