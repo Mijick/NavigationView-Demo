@@ -97,7 +97,7 @@ private extension WalkthroughView {
 private extension WalkthroughView {
     func onSkipButtonTap() {
         HomeView()
-            .push(with: .cubeRotation)
+            .push(with: .verticalSlide)
             .setAsNewRoot()
     }
     func onNextButtonTap() {
