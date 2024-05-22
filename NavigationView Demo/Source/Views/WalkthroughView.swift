@@ -102,7 +102,7 @@ private extension WalkthroughView {
     }
     func onNextButtonTap() {
         switch isLastPage {
-            case true: HomeView().push(with: .verticalSlide)
+            case true: HomeView().push(with: .verticalSlide).setAsNewRoot()
             case false: pageIndex += 1
         }
     }
