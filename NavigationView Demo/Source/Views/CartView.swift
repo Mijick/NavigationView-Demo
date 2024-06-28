@@ -15,6 +15,7 @@ struct CartView: NavigatableView {
     let items = MockData.CartObject.generate()
 
 
+    func configure(view: NavigationConfig) -> NavigationConfig { view.navigationBackGesture(.drag) }
     var body: some View {
         VStack(spacing: 0) {
             createNavigationBar()

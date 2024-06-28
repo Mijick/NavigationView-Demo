@@ -15,7 +15,10 @@ struct ProductView: NavigatableView {
     let product: MockData.SaleCard
 
 
-    func configure(view: NavigationConfig) -> NavigationConfig { view.ignoresSafeArea(.top) }
+    func configure(view: NavigationConfig) -> NavigationConfig { view
+        .ignoresSafeArea(.top)
+        .navigationBackGesture(.drag)
+    }
     var body: some View {
         VStack(spacing: 0) {
             createTopView()
