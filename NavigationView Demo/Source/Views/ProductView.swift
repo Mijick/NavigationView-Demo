@@ -16,7 +16,7 @@ struct ProductView: NavigatableView {
 
 
     func configure(view: NavigationConfig) -> NavigationConfig { view
-        .ignoresSafeArea(.top)
+        .ignoresSafeArea(.all, .top)
         .navigationBackGesture(.drag)
     }
     var body: some View {

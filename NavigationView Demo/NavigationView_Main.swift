@@ -22,6 +22,7 @@ private extension NavigationView_Main {
     var navigationConfig: NavigationGlobalConfig {
         var config = NavigationGlobalConfig()
         config.backgroundColour = .backgroundPrimary
+        config.backGestureThreshold = 0.25
         return config
     }
 }
